@@ -1,2 +1,12 @@
+# Local credentials and environment overrides
 .env
-.idea
+.env.*
+!.env.example
+
+# Python build artifacts and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE configuration
+.idea/
